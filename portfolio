@@ -1,6 +1,16 @@
-# Hi, I'm Sumit Wailthare 👋
-
-Welcome to my **Data Analytics & Power BI Developer** portfolio. I transform raw data into interactive dashboards and business insights.
+<table>
+  <tr>
+    <!-- Profile Image Column -->
+    <td align="center" valign="top" width="30%">
+      <img src="YOUR_ANIMATED_IMAGE_URL_HERE" width="200px" alt="Sumit Wailthare" style="border-radius: 50%;"/>
+    </td>
+    <!-- Content Column -->
+    <td valign="top" width="70%">
+      <h1>Hi, I'm Sumit Wailthare 👋</h1>
+      <p>Welcome to my <strong>Data Analytics & Power BI Developer</strong> portfolio. I transform raw data into interactive dashboards and business insights.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
