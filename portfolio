@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Power BI Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        .project { border: 1px solid #ccc; padding: 20px; margin-bottom: 20px; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <h1>Hi, I'm a Power BI Developer 👋</h1>
+    <p>Welcome to my data analytics portfolio.</p>
+
+    <div class="project">
+        <h2>Project 1: Sales Performance Dashboard</h2>
+        <p>An end-to-end Power BI solution utilizing DAX and Star Schema modeling.</p>
+        <a href="https://github.com">View Repository</a>
+    </div>
+</body>
+</html>
