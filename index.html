@@ -1,222 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Power BI Developer Portfolio</title>
-    <style>
-        :root {
-            --bg-color: #f8f9fa;
-            --card-bg: #ffffff;
-            --primary-color: #f2c811; /* Power BI Yellow */
-            --text-main: #212529;
-            --text-muted: #6c757d;
-            --border-color: #dee2e6;
-        }
+<div align="center">
+  <h1>Hi there, I'm Sumit Wailthare<your-name> 👋</h1>
+  <h3>Power BI Developer & Data Analyst</h3>
+  <p><i>Transforming complex data into clear, interactive, and actionable business insights.</i></p>
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
 
-        .container {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
+</div>
 
-        header {
-            text-align: center;
-            margin-bottom: 60px;
-        }
+---
 
-        .profile-img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            background-color: #e9ecef;
-            display: inline-block;
-            margin-bottom: 20px;
-            border: 3px solid var(--primary-color);
-        }
+## 🚀 About Me
+- 🔭 I am currently working on **advanced DAX modeling and automated Power BI Service deployments**.
+- 💡 I specialize in **Power Query (M), Star Schema Data Modeling, DAX, SQL, and interactive dashboard design**.
+- 🎯 My goal is to help businesses optimize revenue, reduce operational waste, and make data-driven decisions.
+- ⚡ Fun fact: I love finding messy, unformatted datasets and turning them into clean, single-source-of-truth reporting systems.
 
-        h1 {
-            margin: 0 0 10px 0;
-            font-size: 2.5rem;
-        }
+---
 
-        .subtitle {
-            color: var(--text-muted);
-            font-size: 1.2rem;
-            margin-top: 0;
-        }
+## 🛠️ Tech Stack & Skills
 
-        .skills-tags {
-            margin-top: 15px;
-        }
+| Category | Tools & Technologies |
+| :--- | :--- |
+| **Business Intelligence** | Microsoft Power BI (Desktop, Service, Report Server), Tableau |
+| **Data Transformation** | Power Query, M Code, SQL, Excel (Power Pivot, VBA) |
+| **Modeling & Analytics** | DAX (Data Analysis Expressions), Star Schema, Data Warehousing Concepts |
+| **Languages & Scripting** | Python |
+| **Databases** | SQL Server, MySQL |
 
-        .tag {
-            background-color: #e9ecef;
-            padding: 6px 12px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            margin: 0 4px;
-            display: inline-block;
-        }
 
-        .portfolio-card {
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            margin-bottom: 40px;
-        }
+## 📊 Featured Power BI Projects
 
-        .card-header {
-            padding: 24px;
-            border-bottom: 1px solid var(--border-color);
-        }
+### 1. [E-Commerce Sales & Profit Analysis](https://github.com)
+* **Business Problem:** The regional sales team lacked visibility into declining profit margins and product-level return rates across quarters.
+* **Data Sources:** SQL Server Database & CSV flat files.
+* **Key Actions Taken:**
+  * Built a multi-fact **Star Schema** data model.
+  * Wrote complex **DAX measures** for Year-to-Date (YTD) growth, customer churn, and Pareto (80/20) product analysis.
+  * Designed an interactive 3-page executive report with drill-throughs and dynamic tooltips.
+* **Key Findings:** Identified that 15% of product lines accounted for 70% of losses due to high shipping fees.
 
-        .card-title {
-            margin: 0 0 8px 0;
-            font-size: 1.5rem;
-        }
+> *[Insert Screenshot of Dashboard Here]*
+> `![Dashboard Preview](assets/sales-dashboard.png)`
 
-        /* Power BI Report Container responsive sizing (16:9 Aspect Ratio) */
-        .report-wrapper {
-            position: relative;
-            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-            height: 0;
-            overflow: hidden;
-            background: #e9ecef;
-        }
+---
 
-        .report-wrapper iframe, 
-        .report-wrapper img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
-            object-fit: cover;
-        }
+### 2. [HR & Employee Attrition Dashboard](https://github.com)
+* **Business Problem:** Human Resources needed a real-time tracker for headcount, department-wise attrition, and employee tenure.
+* **Data Sources:** HRIS Excel exports & PostgreSQL.
+* **Key Actions Taken:**
+  * Cleaned and transformed 20,000+ employee records using **Power Query**.
+  * Created dynamic date intelligence and rolling-average DAX calculations.
+* **Key Findings:** High turnover correlated strongly with lack of promotion within the first 24 months.
 
-        .card-body {
-            padding: 24px;
-        }
+> *[Insert Screenshot of Dashboard Here]*
+> `![Dashboard Preview](assets/hr-dashboard.png)`
 
-        .grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 20px;
-        }
 
-        @media (min-width: 768px) {
-            .grid {
-                grid-template-columns: 2fr 1fr;
-            }
-        }
-
-        .tech-list {
-            list-style: none;
-            padding: 0;
-        }
-
-        .tech-list li {
-            padding: 6px 0;
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .tech-list li strong {
-            color: #495057;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 60px;
-            color: var(--text-muted);
-            font-size: 0.9rem;
-        }
-
-        footer a {
-            color: var(--text-main);
-            text-decoration: none;
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="container">
-        
-        <!-- Profile Details Header Section -->
-        <header>
-            <div class="profile-img"></div>
-            <h1>Your Name</h1>
-            <p class="subtitle">Power BI Developer & Data Analyst</p>
-            <div class="skills-tags">
-                <span class="tag">DAX</span>
-                <span class="tag">Power Query (M)</span>
-                <span class="tag">SQL Server</span>
-                <span class="tag">Data Modeling</span>
-                <span class="tag">ETL Pipeline</span>
-            </div>
-        </header>
-
-        <!-- Main Project Showcase -->
-        <main class="portfolio-card">
-            <div class="card-header">
-                <h2 class="card-title">Executive Sales & Performance Dashboard</h2>
-                <p style="margin: 0; color: var(--text-muted);">Interactive end-to-end business intelligence application tracking enterprise revenue stream metrics.</p>
-            </div>
-
-            <!-- Power BI Embed Space -->
-            <div class="report-wrapper">
-                <!-- OPTION A: If you have a Power BI Publish to Web link, uncomment the iframe below and swap out the URL -->
-                <!-- <iframe title="Sales Report" src="https://powerbi.com" allowFullScreen="true"></iframe> -->
-
-                <!-- OPTION B: Fallback Static Image / GIF Mockup if you don't have a public web embed URL link -->
-                <img src="https://unsplash.com" alt="Power BI Dashboard Preview Screenshot">
-            </div>
-
-            <div class="card-body">
-                <div class="grid">
-                    <div>
-                        <h3>Project Overview</h3>
-                        <p>This report connects unstructured internal sales data, maps it clean across an ETL framework, and surfaces high-level target variables for stakeholders. Features automated calculation parameters allowing users to dynamically forecast performance shifts alongside conditional row isolation configurations.</p>
-                        
-                        <h3>Key Insights Delivered</h3>
-                        <ul>
-                            <li>Identified a 14% drop margin within the regional supply distribution nodes using key performance breakdown trees.</li>
-                            <li>Implemented dynamic relative date slicers allowing stakeholders to cycle custom quarters natively without resetting underlying visual layers.</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3>Technical Framework</h3>
-                        <ul class="tech-list">
-                            <li><strong>Data Source:</strong> SQL Database & CSVs</li>
-                            <li><strong>Data Model:</strong> Star Schema (1:N)</li>
-                            <li><strong>Calculations:</strong> Time-Intelligence DAX</li>
-                            <li><strong>Optimization:</strong> Performance Analyzer</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </main>
-
-        <!-- Contact / Links Footer -->
-        <footer>
-            <p>Connect with me: <a href="#">LinkedIn</a> | <a href="#">GitHub</a> | <a href="mailto:your.email@example.com">Email Me</a></p>
-        </footer>
-
-    </div>
-
-</body>
-</html>
+## 📫 How to Reach Me
+* **LinkedIn:** https://www.linkedin.com/in/sumitwailthare/
+* **Email:** sumitkwailthare189@gmail.com
+* **Portfolio Site:** [your-portfolio.com](https://your-portfolio.com)
+* **Mobile No:** 8698388136
