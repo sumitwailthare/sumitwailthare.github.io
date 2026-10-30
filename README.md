@@ -53,4 +53,3 @@
 * **LinkedIn:** https://www.linkedin.com/in/sumitwailthare/
 * **Email:** sumitkwailthare189@gmail.com
 * **Portfolio Site:** [your-portfolio.com](https://your-portfolio.com)
-* **Mobile No:** 8698388136
