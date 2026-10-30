@@ -38,9 +38,6 @@
   * Designed an interactive 3-page executive report with drill-throughs and dynamic tooltips.
 * **Key Findings:** Identified that 15% of product lines accounted for 70% of losses due to high shipping fees.
 
-> *[Insert Screenshot of Dashboard Here]*
-> `![Dashboard Preview](assets/sales-dashboard.png)`
-
 ---
 
 ### 2. [HR & Employee Attrition Dashboard](https://github.com)
@@ -50,9 +47,6 @@
   * Cleaned and transformed 20,000+ employee records using **Power Query**.
   * Created dynamic date intelligence and rolling-average DAX calculations.
 * **Key Findings:** High turnover correlated strongly with lack of promotion within the first 24 months.
-
-> *[Insert Screenshot of Dashboard Here]*
-> `![Dashboard Preview](assets/hr-dashboard.png)`
 
 
 ## 📫 How to Reach Me
